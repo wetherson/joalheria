@@ -21,17 +21,8 @@ nav#menu li:hover {
 nav#menu h1 {
     display: none;
 }
-/* Slideshow container */
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
 
-/*
-.mySlides {
-    display: none;
-}*/
-
-img {vertical-align: middle;}
-
+/* Formatação Slide Show */
 .slideshow-container {
     max-width: 400px;
     position: relative;
@@ -56,12 +47,13 @@ img {vertical-align: middle;}
 /* Seta de Proximo posicionado à direita */
  .setaproximo { 
     right: 0; 
+    border-radius: 3px 0 0 3px;
 } 
   
-/* Mudar fundo das Setas para preto com 80% de NÃO transparência  */
+/* Mudar fundo das Setas para preto com 60% de NÃO transparência  */
 /* quando se passa o mouse por cima  */
 .setaanterior:hover, .setaproximo:hover { 
-    background-color: rgba(0,0,0,0.8); 
+    background-color: rgba(0,0,0,0.6); 
 }  
 
 /* Caption text */
@@ -75,7 +67,7 @@ img {vertical-align: middle;}
     text-align: center;
 }
   
-/* Number text (1/3 etc) */
+/* Texto dos números (1/3 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -84,8 +76,9 @@ img {vertical-align: middle;}
     top: 0;
   }
   
-/* Botoes */
+/* Botoes Selecionadores de foto (em baixo)*/
 .botao {
+    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -97,7 +90,7 @@ img {vertical-align: middle;}
 .active {
     background-color: #717171;
 }
-/* Fading animation */
+/* Animação de troca de fotos */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
