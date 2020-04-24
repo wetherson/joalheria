@@ -1,27 +1,3 @@
-/* Formatação Menu*/
-nav#menu {
-    display: block;
-}
-nav#menu ul {
-    list-style: none;
-    position: absolute;
-    top: -20px;
-    left: 200px;
-}
-nav#menu li {
-    display: inline-block;
-    padding: 10px;
-    background-color: #dddddd;
-    margin: 2px;
-    transition: background-color 0.5s;
-}
-nav#menu li:hover {
-    background-color: #606060;
-}
-nav#menu h1 {
-    display: none;
-}
-
 /* Formatação Slide Show */
 .slideshow-container {
     max-width: 400px;
