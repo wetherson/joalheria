@@ -13,7 +13,26 @@
 <body>
     <div id="interface">
         <header id="cabecalho">
-            <img src="img/logoaliancapequeno.png" alt="">
+<!-- Menu Novo -->
+            <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">PRINCIPAL</a>
+            <div class="dropdown">
+                <button class="dropbtn">PRODUTOS
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">ALIANÇAS</a>
+                    <a href="#">ANÉIS</a>
+                    <a href="#">RELÓGIOS</a>
+                </div>
+            </div>
+            <a href="contato.html">CONTATO</a>
+            <a href="orcamento.html">ORÇAMENTO</a>
+            <a href="javascript:void(0);" class="icon" onclick="menuresponsivo()">&#9776;</a>
+            </div>
+<!-- Fim Menu Novo -->
+<img src="img/logoaliancapequeno.png" alt="">
+<!-- Menu Antigo
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ul type='disc'>
@@ -23,6 +42,7 @@
                     <li><a href="orcamento.html">ORÇAMENTO</a></li>
                 </ul>
             </nav>
+-->
         </header>
 
         <div class="slideshow-container">
@@ -69,7 +89,7 @@
             &copy; Joalheria
         </footer>
     </div>
-    <script src="js/menuresponsivo.js.js"></script>
+    <script src="js/menuresponsivo.js"></script>
     <script src="js/slideshow.js"></script>
 </body>
 
