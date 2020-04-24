@@ -1,0 +1,18 @@
+/* Arquivo CSS com modelo para todas as paginas */ 
+
+/* Colar o Menu no topo */
+body {
+  margin: 0px;
+}
+
+/* Centralizar copyright em baixo */
+footer{
+  text-align: center;
+}
+
+/* Textos dos paragrafos*/
+p{
+  font-family: Arial;
+  font-size: 20px;
+
+}
