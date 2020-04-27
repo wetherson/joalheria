@@ -1,3 +1,15 @@
+/* Formatação to texto da Descrição */
+.descricaodestaque{
+    margin: 0;
+}
+
+/* Formatação Código de Referência */
+.codigoreferencia{
+    margin: 0;
+    font-family: didot;
+    font-size: 17px;
+}
+
 /* Formatação do FlexBox do Slideshow */
 .flexboxslide {
     display: flex;
@@ -10,7 +22,6 @@
     flex: 1 1 300px;
     margin: 10px; 
 }
-
 /* Formatação do FlexBox de Produtos */
 .flexboxproduto {
     display: flex;
@@ -18,7 +29,6 @@
     margin: 0 auto;
     max-width: 1000px;
 }
-
 /*Formatação das div dentro do Flexbox de Produtos */  
 .flexboxproduto > div {
     flex: 1 1 300px;
