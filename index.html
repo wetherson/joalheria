@@ -13,66 +13,112 @@
 </head>
 <!-- Corpo da Pagina -->
 <body>
-    <div id="interface">
-        <header id="cabecalho">
-            <!-- Menu Responsivo -->
-            <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">PRINCIPAL</a>
-            <div class="dropdown">
-                <button class="dropbtn">PRODUTOS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="aliancas.html">ALIANÇAS</a>
-                    <a href="aneis.html">ANÉIS</a>
-                    <a href="relogios.html">RELÓGIOS</a>
-                </div>
+    <header id="cabecalho">
+        <!-- Menu Responsivo -->
+        <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">PRINCIPAL</a>
+        <div class="dropdown">
+            <button class="dropbtn">PRODUTOS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aliancas.html">ALIANÇAS</a>
+                <a href="aneis.html">ANÉIS</a>
+                <a href="relogios.html">RELÓGIOS</a>
             </div>
-            <a href="contato.html">CONTATO</a>
-            <a href="orcamento.html">ORÇAMENTO</a>
-            <a href="javascript:void(0);" class="icon" onclick="menuresponsivo()"
-            style="padding-bottom: 11px;">&#9776;</a>
-            </div>
-            <img src="img/logoaliancapequeno.png" alt="">
-        </header>
-        <section class="flexboxindex">
-            <!-- Slideshow -->
-            <div id="slideshowcompleto">
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <div class="numbertext">1 / 3</div>
-                        <img src="img/relogio001.jpg" style="width:100%">
-                        <div class="text">Relógios</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext">2 / 3</div>
-                        <img src="img/brinco001.jpg" style="width:100%">
-                        <div class="text">Brincos</div>
-                    </div>
-                    <div class="mySlides fade">
-                        <div class="numbertext">3 / 3</div>
-                        <img src="img/alianca001.jpg" style="width:100%">
-                        <div class="text">Alianças</div>
-                    </div>
-                    <!-- Botões -->
-                    <a class="setaanterior" onclick="aumentaSlides('D')">&#10094;</a>
-                    <a class="setaproximo" onclick="aumentaSlides('A')">&#10095;</a>
+        </div>
+        <a href="contato.html">CONTATO</a>
+        <a href="orcamento.html">ORÇAMENTO</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuresponsivo()"
+        style="padding-bottom: 11px;">&#9776;</a>
+        </div>
+        <img src="img/logoaliancapequeno.png" alt="">
+    </header>
+    <section class="flexboxslide">
+        <!-- Slideshow -->
+        <div id="slideshowcompleto">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/slideshow/slide001.jpg" style="width:100%">
+                    <div class="text">Alianças</div>
                 </div>
-                <div style="text-align:center">
-                    <span class="botao" onclick="mostraSlides(1)"></span>
-                    <span class="botao" onclick="mostraSlides(2)"></span>
-                    <span class="botao" onclick="mostraSlides(3)"></span>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/slideshow/slide002.jpg" style="width:100%">
+                    <div class="text">Brincos</div>
                 </div>
-            </div>                
-            <div id="textoapresentacao">
-                <p>Aqui a tia Mabia vai fazer um texto pequeno de boas vindas e contar uma breve história da loja. Falando do tempo de atuação e uns leriados desses. Sem textão senão ninguem lê.
-                </p>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/slideshow/slide003.jpg" style="width:100%">
+                    <div class="text">Colares</div>
+                </div>
+                <!-- Botões -->
+                <a class="setaanterior" onclick="aumentaSlides('D')">&#10094;</a>
+                <a class="setaproximo" onclick="aumentaSlides('A')">&#10095;</a>
             </div>
-        </section>
-        <footer>
-            &copy; Joalheria
-        </footer>
-    </div>
+            <div style="text-align:center">
+                <span class="botao" onclick="mostraSlides(1)"></span>
+                <span class="botao" onclick="mostraSlides(2)"></span>
+                <span class="botao" onclick="mostraSlides(3)"></span>
+            </div>
+        </div>                
+        <div id="textoapresentacao">
+            <p>Aqui a tia Mabia vai fazer um texto pequeno de boas vindas e contar uma breve história da loja. Falando do tempo de atuação e uns leriados desses. Sem textão senão ninguem lê.
+            </p>
+        </div>
+    </section>
+    <h1> Destaques</h1>
+    <section class="flexboxproduto">
+        <div>
+            <img src="img/destaques/destaque001.jpg">
+            <p> Descrição do Destaue 001</p>
+            <p> Código de Referência #D90001 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque002.jpg">
+            <p> Descrição do Destaue 002</p>
+            <p> Código de Referência #D90002 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque003.jpg">
+            <p> Descrição do Destaue 003</p>
+            <p> Código de Referência #D90003 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque004.jpg">
+            <p> Descrição do Destaue 004</p>
+            <p> Código de Referência #D90004 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque005.jpg">
+            <p> Descrição do Destaue 005</p>
+            <p> Código de Referência #D90005 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque006.jpg">
+            <p> Descrição do Destaue 006</p>
+            <p> Código de Referência #D90006 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque007.jpg">
+            <p> Descrição do Destaue 007</p>
+            <p> Código de Referência #D90007 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque008.jpg">
+            <p> Descrição do Destaue 008</p>
+            <p> Código de Referência #D90008 </p>
+        </div>
+        <div>
+            <img src="img/destaques/destaque009.jpg">
+            <p> Descrição do Destaue 009</p>
+            <p> Código de Referência #D90009 </p>
+        </div>
+    </section>
+    <footer>
+        &copy; Joalheria
+    </footer>
     <script src="js/menuresponsivo.js"></script>
     <script src="js/slideshow.js"></script>
 </body>

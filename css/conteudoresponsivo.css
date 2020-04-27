@@ -1,12 +1,26 @@
-/* Formatação do FlexBox */
-.flexboxindex {
+/* Formatação do FlexBox do Slideshow */
+.flexboxslide {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
 }
-/*Formatação das div dentro do Flexbox */  
-.flexboxindex > div {
+/*Formatação das div dentro do Flexbox do Slideshow */  
+.flexboxslide > div {
+    flex: 1 1 300px;
+    margin: 10px; 
+}
+
+/* Formatação do FlexBox de Produtos */
+.flexboxproduto {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/*Formatação das div dentro do Flexbox de Produtos */  
+.flexboxproduto > div {
     flex: 1 1 300px;
     margin: 10px;
 }

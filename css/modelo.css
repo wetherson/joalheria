@@ -16,3 +16,9 @@ p{
   font-size: 20px;
 
 }
+
+/* Formatação de imagens Responsivas */
+img {
+  max-width: 100%;
+  display: block;
+} 
