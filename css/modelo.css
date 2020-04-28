@@ -10,15 +10,20 @@ footer{
   text-align: center;
 }
 
-/* Textos dos paragrafos*/
-p{
-  font-family: Arial;
-  font-size: 20px;
-
-}
-
 /* Formatação de imagens Responsivas */
 img {
   max-width: 100%;
   display: block;
 } 
+
+/* Formatação Rodappe */
+.rodape{
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 0px;
+}
+
+h1{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}

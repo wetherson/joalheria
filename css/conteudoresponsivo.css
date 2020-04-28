@@ -6,21 +6,8 @@
 /* Formatação Código de Referência */
 .codigoreferencia{
     margin: 0;
-    font-family: didot;
-    font-size: 17px;
-}
-
-/* Formatação do FlexBox do Slideshow */
-.flexboxslide {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-/*Formatação das div dentro do Flexbox do Slideshow */  
-.flexboxslide > div {
-    flex: 1 1 300px;
-    margin: 10px; 
+    font-family: Arial;
+    font-size: 12px;
 }
 /* Formatação do FlexBox de Produtos */
 .flexboxproduto {
