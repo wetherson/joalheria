@@ -6,43 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/menuresponsivo.css">
-    <link rel="stylesheet" href="css/modelo.css">
+    <link rel="stylesheet" href="css/contato.css">
     <title>Joalheria</title>
 </head>
 <!-- Corpo da Pagina -->
 <body>
-    <div id="interface">
-        <header id="cabecalho">
-            <!-- Menu Responsivo -->
-            <div class="topnav" id="myTopnav">
-            <a href="index.html" class="active">PRINCIPAL</a>
-            <div class="dropdown">
-                <button class="dropbtn">PRODUTOS
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="aliancas.html">ALIANÇAS</a>
-                    <a href="aneis.html">ANÉIS</a>
-                    <a href="brincos.html">BRINCOS</a>
-                    <a href="colares.html">COLARES</a>
-                    <a href="pingentes.html">PINGENTES</a>
-                    <a href="pulseiras.html">PULSEIRAS</a>
-                    <a href="relogios.html">RELÓGIOS</a>
-                    </div>
+    <header id="cabecalho">
+        <!-- Menu Responsivo -->
+        <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">PRINCIPAL</a>
+        <div class="dropdown">
+            <button class="dropbtn">PRODUTOS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aliancas.html">ALIANÇAS</a>
+                <a href="aneis.html">ANÉIS</a>
+                <a href="brincos.html">BRINCOS</a>
+                <a href="colares.html">COLARES</a>
+                <a href="pingentes.html">PINGENTES</a>
+                <a href="pulseiras.html">PULSEIRAS</a>
+                <a href="relogios.html">RELÓGIOS</a>
             </div>
-            <a href="contato.html">CONTATO</a>
-            <a href="orcamento.html">ORÇAMENTO</a>
-            <a href="javascript:void(0);" class="icon" onclick="menuresponsivo()"
-            style="padding-bottom: 11px;">&#9776;</a>
-            </div>
-            <img src="img/logoaliancapequeno.png" alt="">
-        </header>
-        <footer>
-            <P class="rodape">Endereço Rua número Bairro Cidade Estado CEP 77.777-777</P> 
-            <P class="rodape">Telefone 62.9999-9999</P> 
-            <P class="rodape">&copy; Joalheria</P>
-        </footer>
         </div>
+        <a href="contato.html">CONTATO</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuresponsivo()"
+        style="padding-bottom: 11px;">&#9776;</a>
+        </div>
+        <img src="img/logoaliancapequeno.png" alt="">
+    </header>
+    <table class="table-responsive">
+        <tr>
+            <th>Endereço</th>
+            <th>Rua número Bairro</th>
+        </tr>
+        <tr>
+            <th>Cidade - UF</th>
+            <th>Cidade Estado</th>
+        </tr>    
+        <tr>
+            <th>CEP</th>
+            <th>77.777-777</th>
+        </tr>
+        <tr>
+            <th>Telefone</th>
+            <th>62.4444-4444</th>
+        </tr>
+        <tr>
+            <th>Celular</th>
+            <th>62.9999-9999</th>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <th>joalheria@joalheria.com.br</th>
+        </tr>
+            <th>Facebook</th>
+            <th>http://www.facebook.com/joalheria</th>
+        </tr>
+    </table>
+    <P>&copy; Joalheria</P>
+    <footer></footer>
     <script src="js/menuresponsivo.js"></script>
 </body>
 </html>
