@@ -21,10 +21,10 @@ body {
 }
 
 /* Destacar Pagina Atual */
-.active {
+/*.active {
     background-color: #4CAF50;
     color: white;
-}
+}*/
 
 /* Esconde o link para que o tamanho se ajuste ao navegador */
 .topnav .icon {
