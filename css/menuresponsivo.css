@@ -1,3 +1,8 @@
+/* Colar o Menu no topo */
+body {
+    margin: 0px;
+  }
+  
 /* Cor de fundo do Navegador */
 .topnav {
     background-color: #333;
@@ -70,7 +75,7 @@
     color: white;
 }
 
-/* Cor cinza quando o submenu não está selecionado */
+/* Cor cinza quando o submenu está selecionado */
 .dropdown-content a:hover {
     background-color: #ddd;
     color: black;

@@ -7,4 +7,9 @@ table{
 p{
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+    margin: 3px; 
+}
+
+.icones {
+    width: 25px;
 }

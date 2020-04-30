@@ -1,3 +1,8 @@
+/* Colar o Menu no topo */
+body {
+    margin: 0px;
+  }
+  
 /* Formatação to texto da Descrição */
 .descricaodestaque{
     margin: 0;
